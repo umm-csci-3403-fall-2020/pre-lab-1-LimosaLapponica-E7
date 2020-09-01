@@ -12,5 +12,9 @@ touch "$newFileName"
 cat "${fileNameSpecifier}_header.html" > "$newFileName"
 
 # Add content of contentFileName to end of newFile
-# The >> adds the output of the source  to the end of the file being edited
+# The >> cat option adds the output of the source  to the end of the file being edited
 cat "$contentFileName" >> "$newFileName"
+
+# Add content of footer to end of newFile
+# The >> cat option adds the output of the source  to the end of the file being edited
+cat "${fileNameSpecifier}_footer.html" >> "$newFileName"
