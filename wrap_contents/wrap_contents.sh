@@ -7,3 +7,6 @@ newFileName=$3
 
 # Create a new file with name newFileName
 touch "$newFileName"
+
+# Copy header file into output file
+cat "${fileNameSpecifier}_header.html" > "$newFileName"
