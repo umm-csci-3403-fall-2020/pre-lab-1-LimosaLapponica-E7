@@ -10,3 +10,7 @@ touch "$newFileName"
 
 # Copy header file into output file
 cat "${fileNameSpecifier}_header.html" > "$newFileName"
+
+# Add content of contentFileName to end of newFile
+# The >> adds the output of the source  to the end of the file being edited
+cat "$contentFileName" >> "$newFileName"
