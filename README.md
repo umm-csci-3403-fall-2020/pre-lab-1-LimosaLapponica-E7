@@ -1,5 +1,6 @@
 # Log-processing-pre-lab <!-- omit in toc -->
 
+
 [![Wrap contents tests](../../workflows/Wrap%20tests/badge.svg)](../../actions?query=workflow%3A"Wrap+tests")
 [![Regex tests](../../workflows/Regex%20tests/badge.svg)](../../actions?query=workflow%3A"Regex+tests")
 [![Shellcheck](../../workflows/shellcheck/badge.svg)](../../actions?query=workflow%3A"shellcheck")
